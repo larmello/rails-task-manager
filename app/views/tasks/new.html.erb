@@ -1,0 +1,10 @@
+<div class="container">
+  <h1>Adcionar tarefa</h1>
+  <div class="">
+    <%= simple_form_for(@task) do |f| %>
+      <%= f.input :title %>
+      <%= f.input :details %>
+      <%= f.submit %>
+    <% end %>
+  </div>
+</div>
